@@ -1,0 +1,20 @@
+*&---------------------------------------------------------------------*
+*& Report ZD_PCK_PROG2
+*&---------------------------------------------------------------------*
+*&
+*&---------------------------------------------------------------------*
+*SAMPLE PROGRAMS USING PACKG
+
+REPORT zd_pck_prog2.
+
+DATA : LV1 TYPE I VALUE 100 , LV2 TYPE I VALUE 200 , LV3 TYPE I.
+
+LV3 = LV1 + LV2.
+
+WRITE LV3.
+ULINE.
+WRITE SY-SUBRC.
+*PARAMETERS : p_lv1 TYPE i, p_lv2 TYPE i .
+*DATA lv11 TYPE i.
+*lv11 = p_lv1 + p_lv2.
+*WRITE lv11.
